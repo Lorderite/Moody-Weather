@@ -10,7 +10,27 @@
 
 <body>
   <main>
-    <h1>Vanilla JavaScript App</h1>
+    <script>
+		fetch('https://api.weatherapi.com/v1/current.json?key=393f567c48e84a79bc1130056250306&q=id:134849&aqi=no')
+        .then(response => response.json())
+        .then(data => {
+          const weather = data.current;
+		  const location = data.location;
+
+		  const weatherInfo = `
+			<h1>Weather in ${location.name}, ${location.country}</h1>
+			<p>Temperature: ${weather.temp_c}°C</p>
+			<p>Condition: ${weather.condition.text}</p>
+			<p>Humidity: ${weather.humidity}%</p>
+			<p>Wind Speed: ${weather.wind_kph} kph</p>
+		  `;
+
+		  document.querySelector('main').innerHTML = weatherInfo;
+        })
+        .catch(error => {
+          console.error('Error:', error);
+        });
+	</script>
   </main>
 </body>
 
