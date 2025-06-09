@@ -2,7 +2,7 @@
 
 Moody Weather is a web application that displays current weather information for a user-selected location and provides mood-based suggestions based on the weather and user input. The app uses the [WeatherAPI](https://www.weatherapi.com/) for real-time weather data and offers an interactive, user-friendly interface.
 
-Link: https://yellow-sea-0814ae800.6.azurestaticapps.net
+Link: https://www.moodyweather.com/
 
 ---
 
@@ -82,6 +82,11 @@ Moody-Weather/
 
 ---
 
+## Server Configuration
+
+The entire app is hosted on an Azure static Web app with default configurations aside from pointing to the specific website source files, this was then paired with a Squarespace domain and a SSL certificate was automatically setup by Azure after providing a CNAME connection.
+
+---
 
 ## Credits
 
