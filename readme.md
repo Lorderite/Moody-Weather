@@ -2,6 +2,8 @@
 
 Moody Weather is a web application that displays current weather information for a user-selected location and provides mood-based suggestions based on the weather and user input. The app uses the [WeatherAPI](https://www.weatherapi.com/) for real-time weather data and offers an interactive, user-friendly interface.
 
+Link: https://yellow-sea-0814ae800.6.azurestaticapps.net
+
 ---
 
 ## Technologies Used
