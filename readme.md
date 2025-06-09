@@ -2,7 +2,7 @@
 
 Moody Weather is a web application that displays current weather information for a user-selected location and provides mood-based suggestions based on the weather and user input. The app uses the [WeatherAPI](https://www.weatherapi.com/) for real-time weather data and offers an interactive, user-friendly interface.
 
-Link: https://www.moodyweather.com/
+Link: https://www.moodyweather.com/  
 Video Explainer: https://1drv.ms/v/c/df62eb433e5c6776/EY8rfPjcnghEiMgE-lW8nXsBQM1ots-n5sdxfDgSvh15eQ?e=jAuc45
 
 ---
